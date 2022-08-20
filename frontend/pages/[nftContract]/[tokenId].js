@@ -158,7 +158,7 @@ export default function NFTDetails() {
         ) : (
           <div className={styles.container}>
             <div className={styles.details}>
-              <img src={imageURI} />
+              <img src={imageURI} rel="noreferrer"/>
               <span>
                 <b>
                   {name} - #{tokenId}
@@ -184,6 +184,7 @@ export default function NFTDetails() {
                   <a
                     href={`https://alfajores.celoscan.io/address/${listing.buyer}`}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     {listing.buyer}
                   </a>
