@@ -4,7 +4,7 @@
 
   ## Preview
 
-  - lien vercel
+  - https://celo-nft-marketplace-eight.vercel.app/
 
   ## Build with
 
